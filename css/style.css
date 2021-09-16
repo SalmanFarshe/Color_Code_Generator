@@ -1,0 +1,31 @@
+*{
+    transition: 0.2s all;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(195, 0, 255);
+}
+.h1{
+    margin-top: 15%;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: 0px 0px 50px -15px black;
+    text-shadow: 5px -5px 20px black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+.button{
+    top: 50%;
+    left: 50%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    font-weight: bolder;
+    border-radius: 20px;
+    background-color: aqua;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 50px -15px black;
+}
